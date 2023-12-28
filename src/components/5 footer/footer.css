@@ -1,0 +1,55 @@
+footer.flex ul.flex li a{
+color: var(--title);
+font-size: 0.9rem;
+font-weight: 400;
+}
+
+footer.flex ul.flex li a:hover{
+color: var(--DarkBlue);
+font-weight: 500;
+font-size: 1rem;
+}
+
+footer{
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+footer p{
+    color: var(--subtitle);
+    align-items: center;
+}
+
+
+footer ul{
+    gap:1rem;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+/* ============================================================
+   3. Responsive Design (media query)
+=============================================================== */
+
+
+
+
+
+
+
+
+@media (max-width: 800px) {
+    footer{
+      flex-direction: column;
+        color: rgb(113, 113, 122);
+        gap: 2rem;
+      }
+       
+}
